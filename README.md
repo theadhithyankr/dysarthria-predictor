@@ -29,7 +29,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- app.py
 |-- dysarthria_classifier.py
@@ -40,16 +40,16 @@ The README was written from the repository contents, including its manifest file
 |-- templates/index.html
 |-- torgo_data/data.csv
 |-- train_colab.ipynb
-`
+```
 
 ## Setup
 
-`ash
+```bash
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-`
+```
 
 ## What This Project Demonstrates
 
